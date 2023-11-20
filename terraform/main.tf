@@ -1,9 +1,9 @@
 resource "aws_instance" "my-instance" {
-    ami = "ami-0287a05f0ef0e9d9a"
+    ami = "ami-0efcece6bed30fd98"
     instance_type = "t2.micro"
-    key_name = "Devops-pem-key2"
+    key_name = "terra_key"
     tags = {
       Name = "First_ec2_using_terraform"
     }
-  
+
 }
